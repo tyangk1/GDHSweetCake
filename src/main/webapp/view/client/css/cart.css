@@ -1,0 +1,197 @@
+.header__top__right__cart> a:hover {
+    color: #ff6a28;
+  }
+  
+  .header__top__right__cart {
+    position: relative;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .header__top__right__cart {
+      margin-left: 15px;
+    }
+  }
+  .header__top__right__cart:hover .mini_cart {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+  }
+  .header__top__right__cart > a {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: black;
+    /* border: 1px solid #ddd; */
+    padding: 10px 17px 8px;
+    /* border-radius: 30px; */
+    display: block;
+    z-index: 1;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .header__top__right__cart > a {
+      padding: 6px 8px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+      .header__top__right__cart > a {
+      padding: 6px 13px;
+    }
+  }
+  .header__top__right__cart> a i {
+    font-size: 20px;
+    /* margin-right: 90px; */
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .header__top__right__cart > a i {
+      font-size: 25px;
+      margin-right: 4px;
+    }
+  }
+
+  .mini_cart {
+    position: absolute;
+    width: 400px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    right: 0;
+    padding: 30px 20px 30px;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mini_cart {
+      display: none;
+      top: 100%;
+      opacity: inherit;
+      visibility: inherit;
+      transition: unset;
+      width: 260px;
+      right: -11px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .mini_cart {
+      top: 100%;
+      display: none;
+      width: 260px;
+      right: -11px;
+      opacity: inherit;
+      visibility: inherit;
+      transition: unset;
+    }
+  }
+  
+  .cart_img {
+    width: 20%;
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .cart_info {
+    width: 80%;
+    float: right;
+    text-transform:capitalize
+  }
+  .cart_info a {
+    font-weight: 500;
+    color: #747474;
+  }
+  .cart_info a:hover {
+    color: #ff6a28;
+  }
+  .cart_info span {
+    display: block;
+  }
+  
+  .cart__table {
+    padding: 19px 0;
+  }
+  .cart__table table {
+    width: 100%;
+  }
+  .cart__table table tbody tr:last-child td {
+    padding-bottom: 0;
+  }
+  .cart__table table tbody tr:last-child td:last-child {
+    color: #ff6a28;
+    font-size: 16px;
+  }
+  .cart__table table tbody tr td {
+    color: #242424;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-bottom: 6px;
+  }
+  .cart__table table tbody tr td:last-child {
+    font-weight: 600;
+  }
+  
+  .cart_remove {
+    width: 6%;
+    text-align: right;
+  }
+  .cart_remove a {
+    font-size: 16px;
+    color: #747474;
+  }
+  .cart_remove a:hover {
+    color: #ff6a28;
+  }
+  
+  .cart_item {
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+  }
+  .cart_item.top {
+    padding-top: 0;
+  }
+  
+  .cart_button.view_cart a  {
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #242424;
+    background: #f6f6f6;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 11px 0px 9px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+  }
+  .cart_button.view_cart a:hover {
+    background: #242424;
+    border-color: #242424;
+    color: #fff;
+  }
+  .cart_button.view_cart {
+    padding-bottom: 25px;
+  
+  }
+  .cart_button.Check_out a  {
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #242424;
+    background: #f6f6f6;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 11px 0px 9px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+  }
+  .cart_button.Check_out a:hover {
+    background: #242424;
+    border-color: #242424;
+    color: #fff;
+  }
