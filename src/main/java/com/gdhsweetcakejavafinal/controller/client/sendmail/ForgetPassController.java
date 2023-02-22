@@ -52,7 +52,7 @@ public class ForgetPassController extends HttpServlet {
 
             Session session = Session.getDefaultInstance(props, new Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("19130062@st.hcmuaf.edu.vn", "giangkoykun19130062");// Put your email
+                    return new PasswordAuthentication("19130062@st.hcmuaf.edu.vn", "***********");// Put your email
                 }
             });
             // compose message
